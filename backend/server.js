@@ -25,7 +25,7 @@ mongoose.connect('mongodb+srv://shihanaust:5s2MQ6TZFcojmNnN@mernapp.c54ocgz.mong
   .then(() => {
     // listen for requests
     app.listen(4000, () => {
-      console.log('connected to db & listening on port', process.env.PORT)
+      console.log('connected to db & listening on port', 4000)
     })
   })
   .catch((error) => {
